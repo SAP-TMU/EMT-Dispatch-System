@@ -1,0 +1,52 @@
+/* src/App.css */
+
+.centered-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.table-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+.add-icon-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #007bff;
+}
